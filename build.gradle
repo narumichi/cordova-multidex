@@ -2,8 +2,9 @@ android {
     defaultConfig {
         // Enabling multidex support.
         multiDexEnabled true
+        multiDexKeepProguard 'multidex-config.pro'
     }
-    configurations { 
+    configurations {
         //all*.exclude group: 'com.google.android.gms'
         //all*.exclude group: 'com.android.support', module: 'support-v4'
     }
