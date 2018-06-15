@@ -1,4 +1,5 @@
 android {
+    buildToolsVersion "26"
     defaultConfig {
         // Enabling multidex support.
         multiDexEnabled true
