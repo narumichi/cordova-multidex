@@ -1,1 +1,1 @@
--keep class com.google.android.gms.internal { *; }
+-keep class com.google.android.gms.** { *; }
