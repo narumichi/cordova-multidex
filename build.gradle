@@ -4,6 +4,7 @@ android {
 
     defaultConfig {
         // Enabling multidex support.
+        minSdkVersion 22
         multiDexEnabled true
         multiDexKeepProguard file('multidex-config.pro')
     }
