@@ -15,5 +15,4 @@ android {
 
 dependencies {
   compile 'com.android.support:multidex:1.0.3'
-  compile 'com.google.android.gms:play-services-base:15.0.1'
 }
